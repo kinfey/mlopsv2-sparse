@@ -6,7 +6,7 @@ variables:
   # Global
   ap_vm_image: ubuntu-20.04
 
-  namespace: copsv2
+  namespace: dopsv2
   postfix: 1983
   location: eastasia
   environment: dev
@@ -14,8 +14,8 @@ variables:
   enable_monitoring: true
 
   # Azure DevOps 
-  ado_service_connection_rg: Azure-ARM-Dev
-  ado_service_connection_aml_ws: Azure-ARM-Dev
+  ado_service_connection_rg: Azure-ARM-Dev-MLOpsDemo
+  ado_service_connection_aml_ws: Azure-ARM-Dev-MLOpsDemo
 
   # IaC
   resource_group: rg-$(namespace)-$(postfix)$(environment)
