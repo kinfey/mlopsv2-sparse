@@ -15,13 +15,13 @@ trigger:
 pool:
   vmImage: $(ap_vm_image)
 
-resources:
-  repositories:
-    - repository: mlops-templates
-      name: kinfey/mlops-templates
-      endpoint: github-connection
-      type: github
-      ref: main
+# resources:
+#   repositories:
+#     - repository: mlops-templates
+#       name: kinfey/mlops-templates
+#       endpoint: github-connection
+#       type: github
+#       ref: main
 
 stages :
   - stage: Lint

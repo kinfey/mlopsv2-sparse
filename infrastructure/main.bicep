@@ -6,8 +6,8 @@ param postfix string
 param env string 
 
 param tags object = {
-  Owner: 'mlops-v2'
-  Project: 'mlops-v2'
+  Owner: 'kinfey'
+  Project: 'mlopsv2-sparse'
   Environment: env
   Toolkit: 'bicep'
   Name: prefix
